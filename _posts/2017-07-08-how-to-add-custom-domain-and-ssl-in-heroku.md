@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title: "How To Add Custom Domain And SSL in Heroku"
 ---
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SqVvGx1XeUc" frameborder="0" allowfullscreen></iframe>
@@ -10,6 +11,8 @@ Although herkou provides its domain to all apps in form of `app-name.herokuapp.c
 ### Get Domain Name
 We first need to purchase a domain name from domain providers such as Godaddy, Hostgator etc. You can also use free domains as well. For this post I am using a free domain name from [dotk](https://www.google.co.in/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwi4r_-t8_jUAhWIpo8KHV-wDEoQFghQMAE&url=http%3A%2F%2Fwww.dot.tk%2F&usg=AFQjCNGdnVqSIJXPBE3B0f-RHPo3W6fdYQ)
 .
+
+<!-- more -->
 
 ### Point Domain Name to Heroku App
 Now we will make DNS changes to point domain to our app in heroku.
