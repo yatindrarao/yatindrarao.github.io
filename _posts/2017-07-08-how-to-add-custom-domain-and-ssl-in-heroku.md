@@ -35,7 +35,7 @@ You can also add domain via Heroku CLI.
 
  `TTL`: Leave it as it is
 
-![DNS-Configuration]({{site.url}}/assets/dns-config.png)
+![DNS-Configuration](/assets/dns-config.png)
 **Note**: Replace yourdomainname with domain name you've purchased.
 
 Visit https://yourdomainname and your app should be running on this domain now.
@@ -47,6 +47,6 @@ For this post I've used self signed certificate by following this guide [Heroku 
 
 After getting the SSL certificate go to `Domain Name and Certificates` section in `Settings` in Heroku `Dashboard`.
 
-![Heroku-SSL-Config]({{site.url}}/assets/ssl-config.png)
+![Heroku-SSL-Config](/assets/ssl-config.png)
 
 Go to `Configure SSL` -> `Manually`. Now paste certificate, key in the forms as asked and submit it. Now you've successfully configured the app with SSL.

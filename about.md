@@ -3,7 +3,7 @@ layout: page
 title: "About"
 permalink: /about/
 ---
-![me]({{site.url}}/assets/yatindra.jpg)
+![me](/assets/yatindra.jpg)
 
 
 I develope web apps with Ruby on Rails.
